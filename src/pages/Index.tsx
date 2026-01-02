@@ -31,7 +31,7 @@ const Index = () => {
             <img 
               src="/lovable-uploads/NEW_2026_IMAGE.png"
               alt="BLUEPAY2026"
-              className="mx-auto mb-10 max-w-xs"
+               className="mx-auto mb-10 max-w-xs"
             />
             <h1 className="text-4xl font-bold mb-4">Get Your Account Ready And Instantly.</h1>
             <p className="text-lg mb-10">
