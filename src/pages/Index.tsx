@@ -13,7 +13,7 @@ const Index = () => {
           <div className="flex items-center">
             <div className="text-2xl font-bold relative">
               <span className="relative z-10 bg-gradient-to-r from-white via-blue-200 to-blue-400 bg-clip-text text-transparent">
-                BLUE
+                BLUEe
               </span>
               <span className="relative z-10 bg-gradient-to-r from-blue-400 via-blue-300 to-white bg-clip-text text-transparent">
                 PAY
