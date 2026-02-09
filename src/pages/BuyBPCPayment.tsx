@@ -80,7 +80,7 @@ const BuyBPCPayment = () => {
       </div>
 
       <div className="flex flex-col items-center p-4 mb-4">
-        <h1 className="text-3xl font-bold mb-1">NGN 6,500</h1>
+        <h1 className="text-3xl font-bold mb-1">NGN 10,000</h1>
         <p className="text-gray-600 text-sm">BPC Code Purchase</p>
       </div>
 
@@ -100,12 +100,12 @@ const BuyBPCPayment = () => {
         <div className="mb-3">
           <p className="text-gray-500 text-xs">Amount</p>
           <div className="flex justify-between items-center">
-            <p className="text-lg font-bold">NGN 6,500</p>
+            <p className="text-lg font-bold">NGN 10,000</p>
             <Button
               variant="default"
               size="sm"
               className="bg-blue-600 hover:bg-blue-700 flex items-center gap-1"
-              onClick={() => handleCopy("6500", "Amount")}
+              onClick={() => handleCopy("10,000", "Amount")}
             >
               <Copy size={14} />
               Copy
@@ -116,12 +116,12 @@ const BuyBPCPayment = () => {
         <div className="mb-3 border-t pt-3">
           <p className="text-gray-500 text-xs">Account Number</p>
           <div className="flex justify-between items-center">
-            <p className="text-lg font-bold">9168369398</p>
+            <p className="text-lg font-bold">8051000614</p>
             <Button
               variant="default"
               size="sm"
               className="bg-blue-600 hover:bg-blue-700 flex items-center gap-1"
-              onClick={() => handleCopy("9168369398", "Account Number")}
+              onClick={() => handleCopy("8051000614", "Account Number")}
             >
               <Copy size={14} />
               Copy
@@ -131,12 +131,12 @@ const BuyBPCPayment = () => {
 
         <div className="mb-3 border-t pt-3">
           <p className="text-gray-500 text-xs">Bank Name</p>
-          <p className="text-lg font-bold">MONIEPOINT MFB</p>
+          <p className="text-lg font-bold">Zenith eazy wallet</p>
         </div>
 
         <div className="mb-3 border-t pt-3">
           <p className="text-gray-500 text-xs">Account Name</p>
-          <p className="text-lg font-bold">BADAMASI ABDULLAHI</p>
+          <p className="text-lg font-bold">OLADETAN OLUWASEUN</p>
         </div>
       </div>
 
